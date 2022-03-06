@@ -2,7 +2,7 @@
 learning how to use flask, RESTful API, Swagger document......
 including : 
 1. ## 串接API到自己的網域(127.0.0.1)
-     檔案 : 串接API到自己的網域.py
+     檔案 : 串接API到自己的網域.ipynb
 2. ## 串接MYSQL資料到自己的網域,並直接透過修改網域名稱對資料庫進行動作(RESTful API的特色)
      檔案 : app.py、user.py
    ### 工具一－MAMP: 
