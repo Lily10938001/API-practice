@@ -12,5 +12,5 @@ including :
    ### 工具二－POSTMAN:
    - https://www.postman.com/downloads/
    - 類似瀏覽器,貼上url就可以查詢所串的MYSQL資料庫api,但更能get、post、delete、update資料進去
-3. ## 串接MYSQL資料到自己的網域,並透過自己建立的Swagger網頁(類似postman) 進行操作
+3. ## 串接MYSQL資料到自己的網域,並透過自己建立的Swagger網頁(類似postman) 進行操作,且加入LOGIN功能以取得TOKEN
      檔案 : app.py、user2.py、user_swagger_model.py、util.py
