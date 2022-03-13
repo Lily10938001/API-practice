@@ -13,12 +13,12 @@ including :
    - https://www.postman.com/downloads/
    - 類似瀏覽器,貼上url就可以查詢所串的MYSQL資料庫api,但更能get、post、delete、update資料進去
 3. ## 利用Flask建立一個購物車API, 須包含以下功能 :
-   ## - PUT或是PATCH 去新增或刪減存貨, 並能及時算出購物車內的價錢
-   ## - 需有login API, 並將除了login之外的API 加入jwt_token
-   ## - 讓所有API(除了login需有4隻以上)撰寫在swagger文件(類似postman功能的網頁) 
-     檔案 : 
-       1.	app.py --- 定義flask架構以及執行整個程式
-       2.	item.py --- 定義執行各種method的詳細功能(對MySQL資料庫做什麼事)
-       3.	item_swagger_model.py --- 設定在GET/POST時所需提交的parameter/form data,以及Response的訊息文字預設內容及型別
-       4.	msng.py --- 設定在GET/POST成功或失敗時的訊息文字(Response Body)
+   - PUT或是PATCH 去新增或刪減存貨, 並能及時算出購物車內的價錢
+   - 需有login API, 並將除了login之外的API 加入jwt_token
+   - 讓所有API(除了login需有4隻以上)撰寫在swagger文件(類似postman功能的網頁) 
+   ### 檔案 : 
+   - app.py --- 定義flask架構以及執行整個程式
+   - item.py --- 定義執行各種method的詳細功能(對MySQL資料庫做什麼事)
+   - item_swagger_model.py --- 設定在GET/POST時所需提交的parameter/form data,以及Response的訊息文字預設內容及型別
+   - msng.py --- 設定在GET/POST成功或失敗時的訊息文字(Response Body)
 
