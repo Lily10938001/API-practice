@@ -1,7 +1,7 @@
 # API-practice
 learning how to use flask, RESTful API, Swagger document......
 including : 
-1. ## 將在yahoo finance api查詢到的API串接到自己的網域(127.0.0.1)
+1. ## 將在yahoo finance api查詢到的API整理並串接到自己的網域(127.0.0.1)
      檔案 : 串接API到自己的網域.ipynb
 2. ## 串接MYSQL資料到自己的網域,並直接透過修改網域名稱對資料庫進行動作(RESTful API的特色)
      檔案 : app.py、user.py
