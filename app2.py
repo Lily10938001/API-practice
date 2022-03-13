@@ -36,10 +36,10 @@ docs = FlaskApiSpec(app)    # 設定檔寫入swagger文件
 
 ## 定義URL(router)
 api.add_resource(Items, "/items")    # 在POSTMAN上輸入"IP/items"時會觸發Items這個class的功能(包含查詢、新增資料)
-docs.register(Items)    
+docs.register(Items)    # 讓swagger也使用這項功能
 
 api.add_resource(Item, "/item/<int:id>")   # 在POSTMAN上輸入"IP/item/id"時會觸發Item這個class的功能(包含查詢、更新及刪除資料)
-docs.register(Item)    
+docs.register(Item)     
 
 api.add_resource(Login, "/login")   # 觸發Login這個class的功能
 docs.register(Login)    
